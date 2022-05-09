@@ -18,7 +18,7 @@ const Navbar: NextPage = () => {
             </li>
             <li>
               <a className="text-white font-semibold tracking-tight block cursor-pointer p-2 hover:text-blue-500 transition-colors duration-300">
-                Learn More
+                Become a Tutor
               </a>
             </li>
             <li>
