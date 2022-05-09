@@ -1,21 +1,23 @@
 import type { NextPage } from 'next';
 import Navbar from '../components/Navbar';
+import Teacher from '../components/Teacher';
 
 const Home: NextPage = () => {
   return (
     <div>
       <Navbar />
-      <div
-        className="bg-blue-800"
-        style={{ height: '40em', marginTop: '-100px' }}
-      />
-      <div style={{ width: '50%', paddingLeft: '10%' }}>
-        <h1 className="text-white text-5xl" style={{ marginTop: '-10em' }}>
-          Find the best tutors for classes you need help in
-        </h1>
-        <p className="text-gray-300 text-2xl mt-5">
-          Find the best tutors for classes you need help in
-        </p>
+      <div className="bg-blue-800" style={{ height: '45em', marginTop: '-5%' }}>
+        <div style={{ width: '50%', paddingLeft: '10%', paddingTop: '12%' }}>
+          <h1 className="text-white font-medium text-6xl">
+            Find the Best Tutors for Classes You Need Help In Most
+          </h1>
+          <p className="text-gray-300 font-light text-2xl mt-5">
+            I love black people
+          </p>
+          <div style={{ marginLeft: '120%', marginTop: '-40%' }}>
+            <Teacher />
+          </div>
+        </div>
       </div>
     </div>
   );
